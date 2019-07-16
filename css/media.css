@@ -1,0 +1,55 @@
+
+@media screen and (max-width:768px){
+    html{
+        font-size: 8px;
+    }
+    
+      .menu{
+       margin-top: 8px;
+       text-align: center;
+    }
+    
+     menu{
+        width: 100%;
+    }
+     
+    
+}
+
+@media screen and (max-width:420px){
+    html{
+        font-size: 7px;
+    }
+     .visible-lg{
+        display: none;
+    }
+    .m-menu-link{
+        display: block;
+    }
+    
+    
+    .price-tags{
+        flex-direction: column;
+    }
+    .price-tag{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    .footer{
+        justify-content: center;
+    }
+    
+    .footer-menu{
+        display: none;
+    }
+    .legal{
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+    .social-links{
+        padding-top: 3rem;
+    }
+    .social-links a{
+        font-size: 3rem;
+    }
+}
